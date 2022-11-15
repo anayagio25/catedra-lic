@@ -1,0 +1,26 @@
+path {
+  fill: #5b62f4;
+  stroke: #3c4096;
+  stroke-width: 0.1rem;
+}
+a {
+  cursor: pointer;
+}
+.w {
+  width: 60%;
+}
+path:hover {
+  fill: #dfe1ff;
+  transform: scale(1.0009);
+  transform-origin: center;
+}
+.two {
+  transition: all 0.7s ease-in-out 0s;
+  -webkit-transition: all 0.7s ease-in-out 0s;
+}
+a:active,
+a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
